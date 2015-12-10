@@ -2,7 +2,7 @@ var CronJob = require('cron').CronJob,
 		 fs = require('fs');
 
 //seconds, minutes, hours, days, months, weekdays
-new CronJob('0,10,20,30,40,50 * * * * *', function(){
+new CronJob('0,5,10,15,20,25,30,35,40,45,50,55 * * * * *', function(){
 	
 	saveCurrTime();
 	
